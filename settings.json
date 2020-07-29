@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 17,
-  "editor.fontFamily": "Input Mono",
+  "editor.fontFamily": "Fira Mono",
   "editor.lineHeight": 40,
   "editor.letterSpacing": 0.8,
   "editor.wordWrap": "on",
@@ -12,10 +12,9 @@
   "editor.minimap.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "editor.parameterHints.enabled": false,
-  "eslint.enabled": true,
   "git.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 2,
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "500",
   "terminal.integrated.fontWeightBold": "300",
@@ -27,6 +26,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "liveServer.settings.donotShowInfoMsg": true,
   "workbench.colorCustomizations": {
     "tab.border": "#20222c", // colour of the border between opened tabs
     "tab.activeBackground": "#20222c", // backgroud colour of the active file tab
@@ -49,12 +49,16 @@
   "editor.overviewRulerBorder": true,
   "workbench.editor.showIcons": true, // removes icon from opened files in tabs
   "editor.occurrencesHighlight": true,
-  "workbench.iconTheme": "moxer-icons",
+  "workbench.iconTheme": "vscode-great-icons",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Popping and Locking",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
+  "editor.minimap.size": "fill",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 4
 }
