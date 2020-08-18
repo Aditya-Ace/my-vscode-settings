@@ -1,6 +1,6 @@
 {
   "editor.fontSize": 17,
-  "editor.fontFamily": "Fira Mono",
+  "editor.fontFamily": "Input Mono",
   "editor.lineHeight": 40,
   "editor.letterSpacing": 0.8,
   "editor.wordWrap": "on",
@@ -56,7 +56,7 @@
   },
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨ Alexis's Black ⛷",
+  "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
   "editor.minimap.size": "fill",
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line",
