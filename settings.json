@@ -11,7 +11,7 @@
   "emmet.triggerExpansionOnTab": true,
   "editor.minimap.enabled": true,
   "explorer.confirmDragAndDrop": false,
-  "editor.parameterHints.enabled": false,
+  "editor.parameterHints.enabled": true,
   "git.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
   "window.zoomLevel": 2,
@@ -39,9 +39,10 @@
     "editorIndentGuide.background": "#ffffff07", // colour of the active line
     "sideBarSectionHeader.background": "#191b22" // colour of the tabs in sidebar
   },
+  "workbench.editor.enablePreview": false,
   "editor.renderWhitespace": "none", // removes whitespace chars
   "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
-  "editor.folding": false, // removes the folding feature
+  "editor.folding": true, // removes the folding feature
   "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
   "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
   "workbench.activityBar.visible": true, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
@@ -56,9 +57,9 @@
   },
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Pop N' Lock Theme by Luxcium ✨",
   "editor.minimap.size": "fill",
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line",
-  "editor.cursorWidth": 4
+  "editor.cursorWidth": 4,
+  "workbench.colorTheme": "Popping and Locking Black Theme"
 }
