@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 17,
+  "editor.fontSize": 15,
   "editor.fontFamily": "Input Mono",
   "editor.lineHeight": 40,
   "editor.letterSpacing": 0.8,
@@ -8,13 +8,18 @@
   "editor.tabSize": 2,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "prettier.enable": true,
+  "prettier.arrowParens": "always",
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": false,
+  "prettier.printWidth": 120,
   "emmet.triggerExpansionOnTab": true,
   "editor.minimap.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "editor.parameterHints.enabled": true,
   "git.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "500",
   "terminal.integrated.fontWeightBold": "300",
@@ -26,7 +31,11 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  //IntelliSense Config
+  "javascript.validate.enable": false,
+  "javascript.implicitProjectConfig.checkJs": true,
   "liveServer.settings.donotShowInfoMsg": true,
+  "npm-intellisense.scanDevDependencies": true,
   "workbench.colorCustomizations": {
     "tab.border": "#20222c", // colour of the border between opened tabs
     "tab.activeBackground": "#20222c", // backgroud colour of the active file tab
@@ -40,7 +49,8 @@
     "sideBarSectionHeader.background": "#191b22" // colour of the tabs in sidebar
   },
   "workbench.editor.enablePreview": false,
-  "editor.renderWhitespace": "none", // removes whitespace chars
+  "editor.renderWhitespace": "all", // removes whitespace chars
+  "editor.renderIndentGuides": true,
   "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
   "editor.folding": true, // removes the folding feature
   "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
@@ -50,7 +60,7 @@
   "editor.overviewRulerBorder": true,
   "workbench.editor.showIcons": true, // removes icon from opened files in tabs
   "editor.occurrencesHighlight": true,
-  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.iconTheme": "seti",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -61,5 +71,7 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 4,
-  "workbench.colorTheme": "Popping and Locking Black Theme"
+  "workbench.colorTheme": "Shades of Purple",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "extensions.autoUpdate": true
 }
