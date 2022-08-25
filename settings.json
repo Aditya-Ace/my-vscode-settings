@@ -1,60 +1,137 @@
 {
-  "editor.fontSize": 17,
-  "editor.fontFamily": "Fira Code",
-  "editor.lineHeight": 40,
-  "editor.letterSpacing": 0.8,
-  "editor.wordWrap": "on",
-  "editor.fontLigatures": true,
-  "editor.tabSize": 2,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
-  },
-  "prettier.semi": false,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "emmet.triggerExpansionOnTab": true,
-  "editor.minimap.enabled": true,
-  "explorer.confirmDragAndDrop": false,
-  "editor.parameterHints.enabled": false,
-  "git.enabled": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "500",
-  "terminal.integrated.fontWeightBold": "300",
-  "terminal.integrated.fontFamily": "IBM Plex Mono",
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-    "typescript": "tsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "editor.renderWhitespace": "none", // removes whitespace chars
-  "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
-  "editor.folding": false, // removes the folding feature
-  "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
-  "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
-  "workbench.activityBar.visible": true, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
-  "workbench.statusBar.visible": true,
-  "editor.overviewRulerBorder": true,
-  "workbench.editor.showIcons": true, // removes icon from opened files in tabs
-  "editor.occurrencesHighlight": true,
-  "workbench.iconTheme": "vscode-icons",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.suggestSelection": "first",
-  "explorer.confirmDelete": false,
-  "workbench.colorTheme": "SynthWave '84",
-  "editor.minimap.size": "fill",
-  "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 4,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+	"editor.fontSize": 17,
+	"editor.fontWeight": "normal",
+	"editor.fontFamily": "Input Mono",
+	"editor.lineHeight": 45,
+	"editor.letterSpacing": 0.9,
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.fontLigatures": "'calt', 'ss01'",
+	"editor.tabSize": 2,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.endOfLine": "auto",
+	"prettier.jsxSingleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.trailingComma": "none",
+	"prettier.singleQuote": true,
+	"editor.hover.above": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.fixAll.eslint": true,
+		"source.sortImports": false
+	},
+	"[css]": {
+		"editor.suggest.insertMode": "replace",
+		"gitlens.codeLens.scopes": ["document"]
+	},
+	"editor.mouseWheelZoom": true,
+	"emmet.triggerExpansionOnTab": true,
+	"editor.minimap.enabled": true,
+	"explorer.confirmDragAndDrop": false,
+	"editor.parameterHints.enabled": false,
+	"git.enabled": true,
+	"workbench.startupEditor": "newUntitledFile",
+	"better-comments.multilineComments": true,
+	"better-comments.highlightPlainText": false,
+	"terminal.integrated.fontSize": 18,
+	"terminal.integrated.fontWeight": "400",
+	"terminal.integrated.fontFamily": "monospace",
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx",
+		"typescript": "tsx"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"editor.renderWhitespace": "none", // removes whitespace chars
+	"editor.hideCursorInOverviewRuler": true, // removes the folding feature
+	"editor.glyphMargin": true, // removes the space used mainly for debugging indicators
+	"explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+	"workbench.activityBar.visible": true, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+	"workbench.statusBar.visible": true,
+	"editor.overviewRulerBorder": true,
+	"workbench.editor.showIcons": true, // removes icon from opened files in tabs
+	"editor.occurrencesHighlight": true,
+	"workbench.iconTheme": "dobri-simple-icons",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.suggestSelection": "first",
+	"explorer.confirmDelete": false,
+	"editor.minimap.size": "fill",
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 4,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"cSpell.userWords": [
+		"Aditya",
+		"Amit",
+		"autofetch",
+		"Avator",
+		"calt",
+		"caml",
+		"camljs",
+		"checkmark",
+		"colspan",
+		"Dobri",
+		"dont",
+		"esbenp",
+		"filecache",
+		"Fira",
+		"fluentui",
+		"forin",
+		"graphiql",
+		"inputlogin",
+		"Listview",
+		"localforage",
+		"Makita",
+		"middlewares",
+		"Monokai",
+		"multichoice",
+		"Nestlé",
+		"Plex",
+		"preconfigured",
+		"productid",
+		"rgba",
+		"spfx",
+		"Spiderman",
+		"sppkg",
+		"tabpanel",
+		"Tiwari",
+		"toastr",
+		"Tonka",
+		"vsicons",
+		"webpart",
+		"webparts",
+		"weightage"
+	],
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.linkedEditing": true,
+	"git.autofetch": true,
+	"redhat.telemetry.enabled": true,
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"workbench.editor.wrapTabs": true,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	"workbench.editor.revealIfOpen": true,
+	"workbench.productIconTheme": "fluent-icons",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.largeFileOptimizations": true,
+	"files.autoSave": "off",
+	"editor.inlineSuggest.enabled": true,
+	"vsicons.dontShowNewVersionMessage": true,
+	"git.enableSmartCommit": true,
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": true,
+		"markdown": false
+	},
+	"workbench.colorTheme": "Dobri Next -A00- Black",
+	"tabnine.experimentalAutoImports": true,
+	"tabnine.receiveBetaChannelUpdates": true
 }
-
